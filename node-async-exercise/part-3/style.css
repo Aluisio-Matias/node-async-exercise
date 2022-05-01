@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: lightgray;
+  }
+  
+  button {
+    padding: 15px;
+    background-color: #0000ff;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #4545fc;
+  }
+
+  button:active{
+    background-color: #6868fc;
+  }
+  
+  
+  button:active,
+  button:focus {
+    outline: none;
+  }
+  
+  #pokemon-area {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 250px;
+    background-color: lightsteelblue;
+    border: 8px solid steelblue;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .card p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
